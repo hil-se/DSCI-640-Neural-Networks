@@ -1,0 +1,973 @@
+Log level set to INFO
+[INFO   ] creating a DataSet called 'sequence test set' from the following txtFile: './datasets/sequence_test_set.txt'
+[INFO   ] max sequence length of the data set was: 14
+[1;93mONE LAYER FEED FORWARD NO LOSS FUNCTION TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 8.314348074747351E-4[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 8.314348074747351E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:36)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: NONE, seed: 123485, sequenceIndex: 0[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4971500569932938[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4971500569932938
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:37)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: NONE, seed: 1245, sequenceIndex: 1[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001075073028032455[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001075073028032455
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:38)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: NONE, seed: 123245, sequenceIndex: 2[0m
+
+
+
+[1;93mONE LAYER FEED FORWARD SOFTMAX TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 123485 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 123485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 1.383517300922174E-4[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 123485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 1.383517300922174E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:42)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SOFTMAX, seed: 123485, sequenceIndex: 3[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 1245 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 1245 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49704183299901766[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 1245 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49704183299901766
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:43)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SOFTMAX, seed: 1245, sequenceIndex: 4[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest TANH SOFTMAX for seed 123245 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest TANH SOFTMAX for seed 123245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001075073028032455[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest TANH SOFTMAX for seed 123245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001075073028032455
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:44)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SOFTMAX, seed: 123245, sequenceIndex: 5[0m
+
+
+
+[1;93mONE LAYER FEED FORWARD SVM TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest LINEAR SVM for seed 12485 and sequenceIndex 0
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest LINEAR SVM for seed 12485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.0021783697042276756[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest LINEAR SVM for seed 12485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.0021783697042276756
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:48)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SVM, seed: 12485, sequenceIndex: 0[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest SIGMOID SVM for seed 145 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest SIGMOID SVM for seed 145 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49212116327081185[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest SIGMOID SVM for seed 145 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49212116327081185
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:49)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SVM, seed: 145, sequenceIndex: 1[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[INFO   ] Checking output values for feed forward oneLayerTimeSeriesTest TANH SVM for seed 13245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest TANH SVM for seed 13245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 5.815227928486213E-4[0m
+network.NeuralNetworkException: feed forward oneLayerTimeSeriesTest TANH SVM for seed 13245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 5.815227928486213E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:50)
+[1;91m[ERROR  ] FAILED backward pass feed forward oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SVM, seed: 13245, sequenceIndex: 2[0m
+
+
+
+[1;93mONE LAYER JORDAN NO LOSS FUNCTION TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:55)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 8.314348074747351E-4[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 8.314348074747351E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:55)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: NONE, seed: 123485, sequenceIndex: 0[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:56)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49704183299901766[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49704183299901766
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:56)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: NONE, seed: 1245, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:57)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001075073028032455[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001075073028032455
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:57)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: NONE, seed: 123245, sequenceIndex: 3[0m
+
+
+
+[1;93mONE LAYER JORDAN SOFTMAX TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:61)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 2.833814826769795E-4[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 2.833814826769795E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:61)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SOFTMAX, seed: 193485, sequenceIndex: 3[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:62)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49429553837096[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49429553837096
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:62)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SOFTMAX, seed: 981245, sequenceIndex: 5[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:63)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.0010403484478247126[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.0010403484478247126
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:63)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SOFTMAX, seed: 1232452, sequenceIndex: 2[0m
+
+
+
+[1;93mONE LAYER JORDAN SVM TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:67)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 4.749758483384789E-4[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 4.749758483384789E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:67)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SVM, seed: 124385, sequenceIndex: 4[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:68)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5042323400349594[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5042323400349594
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:68)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SVM, seed: 1435, sequenceIndex: 5[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan oneLayerTimeSeriesTest, returned 485 which should have been 725.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:69)
+[INFO   ] Checking output values for jordan oneLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan oneLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -2.7897639499561625E-4[0m
+network.NeuralNetworkException: jordan oneLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -2.7897639499561625E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:69)
+[1;91m[ERROR  ] FAILED backward pass jordan oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SVM, seed: 313245, sequenceIndex: 1[0m
+
+
+
+[1;93mONE LAYER ELMAN NO LOSS FUNCTION TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:74)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0016891928486899499[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0016891928486899499
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:74)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: NONE, seed: 123485, sequenceIndex: 1[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:75)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5065362384580714[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5065362384580714
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:75)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: NONE, seed: 1245, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:76)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0014705042167246706[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0014705042167246706
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:76)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: NONE, seed: 123245, sequenceIndex: 3[0m
+
+
+
+[1;93mONE LAYER ELMAN SOFTMAX TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:80)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.002780262752343892[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.002780262752343892
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:80)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SOFTMAX, seed: 193485, sequenceIndex: 3[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:81)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.48747223424062264[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.48747223424062264
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:81)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SOFTMAX, seed: 981245, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:82)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.922269534435155E-4[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.922269534435155E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:82)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SOFTMAX, seed: 1232452, sequenceIndex: 1[0m
+
+
+
+[1;93mONE LAYER ELMAN SVM TESTS[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:86)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0016434755532075023[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0016434755532075023
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:86)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SVM, seed: 124385, sequenceIndex: 1[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:87)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4935130532757394[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4935130532757394
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:87)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SVM, seed: 1435, sequenceIndex: 4[0m
+[INFO   ] creating a neural network with 1 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] output layer 2 has 48 nodes.
+[INFO   ] network had 485 weights
+[1;91m[FATAL  ] Failed creating oneLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman oneLayerTimeSeriesTest, returned 485 which should have been 510.
+	at PA21Tests.createOneLayerRNN(PA21Tests.java:209)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:153)
+	at PA22Tests.main(PA22Tests.java:88)
+[INFO   ] Checking output values for elman oneLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman oneLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0018939507940279334[0m
+network.NeuralNetworkException: elman oneLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0018939507940279334
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testOneLayerBackwardPass(PA22Tests.java:181)
+	at PA22Tests.main(PA22Tests.java:88)
+[1;91m[ERROR  ] FAILED backward pass elman oneLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SVM, seed: 313245, sequenceIndex: 5[0m
+
+
+
+[1;96m
+
+
+TWO LAYER TEST
+
+
+[0m
+[1;93mTWO LAYER FEED FORWARD NO LOSS FUNCTION TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.005128724824506508[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.005128724824506508
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:95)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: NONE, seed: 123485, sequenceIndex: 4[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4823390518841959[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4823390518841959
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:96)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: NONE, seed: 1245, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.416535365269943E-4[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.416535365269943E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:97)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: NONE, seed: 123245, sequenceIndex: 3[0m
+
+
+
+[1;93mTWO LAYER FEED FORWARD SOFTMAX TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 123485 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 123485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.005128724824506508[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 123485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.005128724824506508
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:101)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SOFTMAX, seed: 123485, sequenceIndex: 3[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 1245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4823390518841959[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4823390518841959
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:102)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SOFTMAX, seed: 1245, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest TANH SOFTMAX for seed 123245 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest TANH SOFTMAX for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.416535365269943E-4[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest TANH SOFTMAX for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.416535365269943E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:103)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SOFTMAX, seed: 123245, sequenceIndex: 3[0m
+
+
+
+[1;93mTWO LAYER FEED FORWARD SVM TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest LINEAR SVM for seed 12485 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest LINEAR SVM for seed 12485 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -1.584714604335149E-4[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest LINEAR SVM for seed 12485 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -1.584714604335149E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:107)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SVM, seed: 12485, sequenceIndex: 1[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest SIGMOID SVM for seed 145 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest SIGMOID SVM for seed 145 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5010207298315926[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest SIGMOID SVM for seed 145 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5010207298315926
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:108)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SVM, seed: 145, sequenceIndex: 4[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[INFO   ] Checking output values for feed forward twoLayerTimeSeriesTest TANH SVM for seed 13245 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest TANH SVM for seed 13245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001209498420515929[0m
+network.NeuralNetworkException: feed forward twoLayerTimeSeriesTest TANH SVM for seed 13245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.001209498420515929
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:109)
+[1;91m[ERROR  ] FAILED backward pass feed forward twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SVM, seed: 13245, sequenceIndex: 5[0m
+
+
+
+[1;93mTWO LAYER JORDAN NO LOSS FUNCTION TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:114)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.005127475391927031[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.005127475391927031
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:114)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: NONE, seed: 123485, sequenceIndex: 0[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:115)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4823390518841959[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4823390518841959
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:115)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: NONE, seed: 1245, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:116)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.416535365269943E-4[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -9.416535365269943E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:116)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: NONE, seed: 123245, sequenceIndex: 3[0m
+
+
+
+[1;93mTWO LAYER JORDAN SOFTMAX TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:120)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0020567275003879086[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0020567275003879086
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:120)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SOFTMAX, seed: 193485, sequenceIndex: 5[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:121)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.505669255780425[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.505669255780425
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:121)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SOFTMAX, seed: 981245, sequenceIndex: 4[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:122)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 8.835742466945469E-4[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 8.835742466945469E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:122)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SOFTMAX, seed: 1232452, sequenceIndex: 1[0m
+
+
+
+[1;93mTWO LAYER JORDAN SVM TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:126)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 3.7911108541870164E-5[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 3.7911108541870164E-5
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:126)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SVM, seed: 124385, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:127)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49394457260446[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.49394457260446
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:127)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SVM, seed: 1435, sequenceIndex: 1[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.[0m
+network.NeuralNetworkException: Failed getNumberWeights on jordan twoLayerTimeSeriesTest, returned 515 which should have been 995.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:128)
+[INFO   ] Checking output values for jordan twoLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: jordan twoLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0026489099962221786[0m
+network.NeuralNetworkException: jordan twoLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0026489099962221786
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:128)
+[1;91m[ERROR  ] FAILED backward pass jordan twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SVM, seed: 313245, sequenceIndex: 4[0m
+
+
+
+[1;93mTWO LAYER ELMAN NO LOSS FUNCTION TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:133)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 3
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.0010131711602787217[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest LINEAR NONE for seed 123485 and sequenceIndex 3 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.0010131711602787217
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:133)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: NONE, seed: 123485, sequenceIndex: 3[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:134)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 0
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5029671941166122[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest SIGMOID NONE for seed 1245 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.5029671941166122
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:134)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: NONE, seed: 1245, sequenceIndex: 0[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:135)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0010554034595655216[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest TANH NONE for seed 123245 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0010554034595655216
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:135)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: NONE, seed: 123245, sequenceIndex: 5[0m
+
+
+
+[1;93mTWO LAYER ELMAN SOFTMAX TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:139)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 0
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0015045243315410792[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest LINEAR SOFTMAX for seed 193485 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0015045243315410792
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:139)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SOFTMAX, seed: 193485, sequenceIndex: 0[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:140)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 2
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4988800915793441[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest SIGMOID SOFTMAX for seed 981245 and sequenceIndex 2 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4988800915793441
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:140)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SOFTMAX, seed: 981245, sequenceIndex: 2[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:141)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 4
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.003392777702700846[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest TANH SOFTMAX for seed 1232452 and sequenceIndex 4 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.003392777702700846
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:141)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SOFTMAX, seed: 1232452, sequenceIndex: 4[0m
+
+
+
+[1;93mTWO LAYER ELMAN SVM TESTS[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:145)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 5
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -7.200087657588079E-4[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest LINEAR SVM for seed 124385 and sequenceIndex 5 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -7.200087657588079E-4
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:145)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: LINEAR and loss function: SVM, seed: 124385, sequenceIndex: 5[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:146)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 1
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4922556730769768[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest SIGMOID SVM for seed 1435 and sequenceIndex 1 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: 0.4922556730769768
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:146)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: SIGMOID and loss function: SVM, seed: 1435, sequenceIndex: 1[0m
+[INFO   ] creating a neural network with 2 hidden layers, for max sequence length: 14.
+[INFO   ] input layer 0 has 48 nodes.
+[INFO   ] hidden layer 1 has 5 nodes.
+[INFO   ] hidden layer 2 has 5 nodes.
+[INFO   ] output layer 3 has 48 nodes.
+[INFO   ] network had 515 weights
+[1;91m[FATAL  ] Failed creating twoLayerTimeSeriesTest[0m
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.[0m
+network.NeuralNetworkException: Failed getNumberWeights on elman twoLayerTimeSeriesTest, returned 515 which should have been 565.
+	at PA21Tests.createTwoLayerRNN(PA21Tests.java:271)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:249)
+	at PA22Tests.main(PA22Tests.java:147)
+[INFO   ] Checking output values for elman twoLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 0
+[1;91m[FATAL  ] Threw exception: network.NeuralNetworkException: elman twoLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0018098810013194623[0m
+network.NeuralNetworkException: elman twoLayerTimeSeriesTest TANH SVM for seed 313245 and sequenceIndex 0 outputs were not the same for time step: 0 and output value: 0, calculated: 0.0 vs. precomputed: -0.0018098810013194623
+	at TestValues.testOutputValues(TestValues.java:448)
+	at PA22Tests.testTwoLayerBackwardPass(PA22Tests.java:277)
+	at PA22Tests.main(PA22Tests.java:147)
+[1;91m[ERROR  ] FAILED backward pass elman twoLayerTimeSeriesTest on: sequence test set with rnn node type: TANH and loss function: SVM, seed: 313245, sequenceIndex: 0[0m
+
+
+
