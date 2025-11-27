@@ -40,7 +40,7 @@
 | W10F | Lab                              |           |              |          |
 | W11M | [CNN Backward Pass](https://docs.google.com/presentation/d/10Aps6HwM3L0_N0yv-qrsPgdJsKCAWLSh5lQl0TkKBwA/edit?usp=sharing)                     |           | [PA32](PA32.md)                                                                                       | W12Sun    |
 | W11W | Lab                              |           |              |          |
-| W11F | Lab                              |           |              |          |                                  | W12M | [CNN Regularization Methods](https://docs.google.com/presentation/d/10Aps6HwM3L0_N0yv-qrsPgdJsKCAWLSh5lQl0TkKBwA/edit?usp=sharing)                     |           | [PA33](PA33.md)                                                                                       | W13Sun    |
+| W11F | Lab                              |           |              |          |                                  | W12M | [CNN Regularization Methods]()   |           | [PA33](PA33.md)    | W13Sun    |
 | W12W | Lab                              |           |              |          |
 | W12F | Lab                              |           |              |          |                                
 | W13M | [Advanced CNN Architectures](https://docs.google.com/presentation/d/10Aps6HwM3L0_N0yv-qrsPgdJsKCAWLSh5lQl0TkKBwA/edit?usp=sharing)                     |           |                                                                                       |     |
