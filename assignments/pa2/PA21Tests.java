@@ -188,6 +188,8 @@ public class PA21Tests {
             int expectedWeights;
             if (nodeType == RNNNodeType.LSTM) {
                 expectedWeights = (nInputs * HIDDEN_LAYER_SIZE) /*input to hidden*/ + (11 * HIDDEN_LAYER_SIZE) /*LSTM hidden weights/bias*/ + HIDDEN_LAYER_SIZE * nOutputs /*hidden to output*/ + (11 * nOutputs); /*weights/biases for outputs*/
+            } else if (nodeType == RNNNodeType.GRU){
+                expectedWeights = (nInputs * HIDDEN_LAYER_SIZE) /*input to hidden*/ + (9 * HIDDEN_LAYER_SIZE) /*GRU hidden weights/bias*/ + HIDDEN_LAYER_SIZE * nOutputs /*hidden to output*/ + (9 * nOutputs); /*weights/biases for outputs*/
             } else {
                 expectedWeights = (nInputs * HIDDEN_LAYER_SIZE) /*input to hidden*/ + HIDDEN_LAYER_SIZE /*hidden bias*/ + HIDDEN_LAYER_SIZE * nOutputs; /*hidden to output*/
             }
