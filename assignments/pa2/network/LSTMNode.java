@@ -66,6 +66,9 @@ public class LSTMNode extends RecurrentNode {
     //variable C saved for doing the backward pass
     public double[] C;
 
+    //This inherits the RecurrentNode class,
+    //double[] PreActivationValue is xt and double[] PostActivationValue is ht
+
 
     /**
      * This creates a new node at a given layer in the

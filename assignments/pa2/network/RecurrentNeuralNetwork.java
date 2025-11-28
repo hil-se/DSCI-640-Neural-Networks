@@ -370,9 +370,9 @@ public class RecurrentNeuralNetwork {
                     RecurrentNode inputNode = layers[0][number];
                     if (value == number) {
                         //the value will be 0..n where n is the number of input nodes (and possible character values)
-                        inputNode.postActivationValue[timeStep] = 1.0;
+                        inputNode.preActivationValue[timeStep] = 1.0;
                     } else {
-                        inputNode.postActivationValue[timeStep] = 0.0;
+                        inputNode.preActivationValue[timeStep] = 0.0;
                     }
                 }
             }
