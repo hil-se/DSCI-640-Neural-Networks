@@ -653,7 +653,7 @@ public class ConvolutionalNode {
     /**
      *  This sets the node's bias to the bias parameter and then
      *  randomly initializes each incoming edge weight by using
-     *  Random.nextGaussian() / sqrt(N) where N is the number
+     *  Random.nextGaussian() * sqrt(2) / sqrt(N) where N is the number
      *  of weights in the incoming edges (filters) fanning in
      *  to the layer.
      *

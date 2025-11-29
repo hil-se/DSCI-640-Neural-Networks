@@ -416,7 +416,7 @@ public class RecurrentNode {
     /**
      *  This sets the node's bias to the bias parameter and then
      *  randomly initializes each incoming edge weight by using
-     *  Random.nextGaussian() / sqrt(N) where N is the number
+     *  Random.nextGaussian() * sqrt(2) / sqrt(N) where N is the number
      *  of incoming edges.
      *
      *  @param bias is the bias to initialize this node's bias to
