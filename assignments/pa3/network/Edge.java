@@ -106,6 +106,9 @@ public abstract class Edge {
      */
     public abstract int printGradients(int position, double[] numericGradient, double[] backpropGradient);
 
+    // Weight initialization
+    public abstract void initializeKaiming(double range);
+    public abstract void initializeXavier(double range);
 
     /**
      * This takes an incoming delta from the output node

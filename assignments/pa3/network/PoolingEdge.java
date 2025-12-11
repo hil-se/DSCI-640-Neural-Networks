@@ -133,6 +133,9 @@ public class PoolingEdge extends Edge {
         return 0;
     }
 
+    public void initializeKaiming(double range){}
+    public void initializeXavier(double range){}
+
 
     /**
      * This performs the max pooling operation by selecting the

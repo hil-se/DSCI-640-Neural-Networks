@@ -421,7 +421,7 @@ public class RecurrentNode {
      *
      *  @param bias is the bias to initialize this node's bias to
      */
-    public void initializeWeightsAndBiasKaiming(int fanIn, double bias) {
+    public void initializeWeightsAndBiasKaiming(double bias) {
         //TODO: You need to implement this for Programming Assignment 2 - Part 2
     }
 
@@ -433,7 +433,7 @@ public class RecurrentNode {
      *
      *  @param bias is the bias to initialize this node's bias to
      */
-    public void initializeWeightsAndBiasXavier(int fanIn, int fanOut, double bias) {
+    public void initializeWeightsAndBiasXavier(double bias) {
         //TODO: You need to implement this for Programming Assignment 2 - Part 2
     }
 

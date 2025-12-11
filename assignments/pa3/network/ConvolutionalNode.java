@@ -659,7 +659,7 @@ public class ConvolutionalNode {
      *
      *  @param bias is the bias to initialize this node's bias to
      */
-    public void initializeWeightsAndBiasKaiming(double initialBias, int fanIn) {
+    public void initializeWeightsAndBiasKaiming(double initialBias) {
         //TODO: You need to implement this for Programming Assignment 3 - Part 1
 
     }
@@ -675,7 +675,7 @@ public class ConvolutionalNode {
      *
      *  @param bias is the bias to initialize this node's bias to
      */
-    public void initializeWeightsAndBiasXavier(double initialBias, int fanIn, int fanOut) {
+    public void initializeWeightsAndBiasXavier(double initialBias) {
         //TODO: You need to implement this for Programming Assignment 3 - Part 1
 
     }
