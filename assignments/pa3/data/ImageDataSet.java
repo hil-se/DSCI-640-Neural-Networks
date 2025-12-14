@@ -64,6 +64,7 @@ public abstract class ImageDataSet {
             //You need to calculate the mean of each channel (there is only one 
             //channel for CIFAR but 3 for CIFAR-10), set the classes's
             //channelAvgs here so it isn't recalculated
+            //Make sure you use Byte.toUnsignedInt to convert the bytes
 
         }
 

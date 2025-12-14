@@ -123,6 +123,7 @@ public class ConvolutionalNode {
 
     //save these on the forward pass so we can reuse them on the
     //backward pass
+    //sigma2_b = sum((xi - mu_b)^2) / N
     public double mu_b;
     public double sigma2_b;
 
@@ -567,6 +568,7 @@ public class ConvolutionalNode {
                 //NOTE: please use generator.nextDouble() to deterine if a 
                 //cell is used or not -- the unit tests to check correctness
                 //will not work if you use Math.random().
+                //If generator.nextDouble()<(1-dropoutRate), then the cell is alive, otherwise, it will be dropped out.
 
                 if (training) {
                     //do training version of dropout
