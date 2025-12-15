@@ -499,7 +499,7 @@ public class ConvolutionalNode {
         //TODO: You need to implement this for Programming Assignment 3 - Part 1
 
         if (nodeType == NodeType.HIDDEN) {
-            //batch normalization happens after the activation function but before dropout
+            //batch normalization happens first, then the activation function and then dropout
             if (useBatchNormalization) {
                 //TODO: Implement this for Programming Assignment 3 - Part 3
                 if (training) {
@@ -640,7 +640,7 @@ public class ConvolutionalNode {
 
             }
 
-            //batch normalization happens after the activation function but before dropout
+            //batch normalization happens first, then the activation function and then dropout
             if (useBatchNormalization) {
                 //TODO: Implement this for Programming Assignment 3 - Part 3
             }
