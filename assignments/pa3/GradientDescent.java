@@ -128,7 +128,7 @@ public class GradientDescent {
 
             cnn.initializeRandomly(initializationType, bias);
 
-            //TODO: For Programming Assignment 3 - Part 3 use this and implement nesterov momentum
+            //TODO: For Programming Assignment 3 - Part 2 use this and implement nesterov momentum
             //java will initialize each element in the array to 0
             double[] velocity = new double[cnn.getNumberWeights()];
 
@@ -155,6 +155,8 @@ public class GradientDescent {
                 //training data) for minibatch gradient descent with nesterov momemntum
                 //For part 3 you will probably want to implement RMSProp or ADAM for the bonus.
                 //You can cap the weights at -50 and 50
+
+                //Do not forget to shuffle and resetRunning at the beginning of each epoch.
 
 
 

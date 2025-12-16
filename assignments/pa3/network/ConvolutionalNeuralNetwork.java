@@ -389,6 +389,7 @@ public class ConvolutionalNeuralNetwork {
      * @param imageDataSet is the imageDataSet we're using to train the CNN
      * @param accuracyAndError is a double array of length 2, index 0 will
      * be the accuracy and index 1 will be the error
+     * here, the total error means the total loss of the batch.
      */
     public void calculateAccuracyAndError(ImageDataSet imageDataSet, int batchSize, double[] accuracyAndError) throws NeuralNetworkException {
         //TODO: need to implement this for Programming Assignment 3 - Part 2
