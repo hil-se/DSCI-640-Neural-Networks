@@ -27,7 +27,7 @@
  
  - (2) Initiate the new private repo
  
- - (3) Invite the instructor and the TA as collaborators (GitHub ID: **azhe825, manojb01**)
+ - (3) Invite the instructor and the TA as collaborators (GitHub ID: **azhe825, RishithaKorrapati**)
 
 ### 2. Clone the created private repo to your local machine.
  ```
