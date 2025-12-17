@@ -10,8 +10,6 @@ import java.util.Random;
 import util.Log;
 
 public class PoolingEdge extends Edge {
-    //the delta calculated by backpropagation for this edge
-    public double poolDelta[][][][];
 
     public int batchSize;
     public int poolSize;
@@ -35,9 +33,6 @@ public class PoolingEdge extends Edge {
         this.poolSize = poolSize;
         this.stride = stride;
 
-        //initialize the weight and delta to 0
-        poolDelta = new double[inputNode.batchSize][inputNode.sizeZ][inputNode.sizeY][inputNode.sizeX];
-
         if (inputNode.sizeZ != outputNode.sizeZ
                || ((inputNode.sizeY - poolSize) / stride) + 1 != (outputNode.sizeY - (2 * outputNode.padding))
                || ((inputNode.sizeX - poolSize) / stride) + 1 != (outputNode.sizeX - (2 * outputNode.padding))) {
@@ -47,19 +42,9 @@ public class PoolingEdge extends Edge {
     }
 
     /**
-     * Resets the deltas for this edge
+     * Resets this edge
      */
-    public void reset() {
-        for (int i = 0; i < batchSize; i++) {
-            for (int z = 0; z < sizeZ; z++) {
-                for (int y = 0; y < sizeY; y++) {
-                    for (int x = 0; x < sizeX; x++) {
-                        poolDelta[i][z][y][x] = 0;
-                    }
-                }
-            }
-        }
-    }
+    public void reset() {}
 
     /**
      * Used to get the weights of this Edge.
@@ -133,6 +118,7 @@ public class PoolingEdge extends Edge {
         return 0;
     }
 
+    //no weights to initialize
     public void initializeKaiming(double range){}
     public void initializeXavier(double range){}
 
