@@ -79,7 +79,7 @@ public class ConvolutionalNode {
 
     //thius is the delta/error calculated by backpropagation
     //for the bias
-    protected double[][][][] biasDelta;
+    protected double[][][] biasDelta;
 
     //this is a list of all incoming edges to this node
     protected List<Edge> inputEdges;
@@ -172,7 +172,7 @@ public class ConvolutionalNode {
         outputValues = new double[batchSize][sizeZ][sizeY][sizeX];
         delta = new double[batchSize][sizeZ][sizeY][sizeX];
         bias = new double[sizeZ][sizeY][sizeX];
-        biasDelta = new double[batchSize][sizeZ][sizeY][sizeX];
+        biasDelta = new double[sizeZ][sizeY][sizeX];
         dropoutDelta = new double[batchSize][sizeZ][sizeY][sizeX];
         xHat = new double[batchSize][sizeZ][sizeY][sizeX];
         afterBatchNorm = new double[batchSize][sizeZ][sizeY][sizeX];
@@ -204,14 +204,15 @@ public class ConvolutionalNode {
         Log.trace("inputValues[0][0].length: " + inputValues[0][0].length);
         Log.trace("inputValues[0][0][0].length: " + inputValues[0][0][0].length);
 
-        for (int i = 0; i < batchSize; i++) {
-            for (int z = 0; z < sizeZ; z++) {
-                for (int y = 0; y < sizeY; y++) {
-                    for (int x = 0; x < sizeX; x++) {
+
+        for (int z = 0; z < sizeZ; z++) {
+            for (int y = 0; y < sizeY; y++) {
+                for (int x = 0; x < sizeX; x++) {
+                    biasDelta[z][y][x] = 0;
+                    for (int i = 0; i < batchSize; i++) {
                         inputValues[i][z][y][x] = 0;
                         outputValues[i][z][y][x] = 0;
                         delta[i][z][y][x] = 0;
-                        biasDelta[i][z][y][x] = 0;
                         xHat[i][z][y][x] = 0;
                         afterBatchNorm[i][z][y][x] = 0;
                         dropoutDelta[i][z][y][x] = 0.0;
@@ -403,12 +404,7 @@ public class ConvolutionalNode {
             for (int z = 0; z < sizeZ; z++) {
                 for (int y = 0; y < sizeY; y++) {
                     for (int x = 0; x < sizeX; x++) {
-                        deltas[position + deltaCount] = 0;
-
-                        for (int i = 0; i < batchSize; i++) {
-                            deltas[position + deltaCount] += biasDelta[i][z][y][x];
-                        }
-
+                        deltas[position + deltaCount] = biasDelta[z][y][x];
                         deltaCount++;
                     }
                 }
@@ -621,7 +617,7 @@ public class ConvolutionalNode {
                     for (int z = 0; z < sizeZ; z++) {
                         for (int y = 0; y < sizeY; y++) {
                             for (int x = 0; x < sizeX; x++) {
-                                biasDelta[i][z][y][x] += delta[i][z][y][x];
+                                biasDelta[z][y][x] += delta[i][z][y][x];
                            }
                         }
                     }
