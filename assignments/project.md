@@ -4,7 +4,7 @@
 [Project](project.md) |
 [Lecturer](http://zhe-yu.github.io) 
 
-Your framework assignment is to implement a CNN and train it using CIFAR10 data in PyTorch.
+Your framework assignment is to implement a CNN and train it using CIFAR10 data in [PyTorch](https://pytorch.org/get-started/locally/).
 
 For first steps and to get an introduction on how to easily import the CIFAR10 data, please visit this tutorial:
 
