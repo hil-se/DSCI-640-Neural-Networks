@@ -27,7 +27,7 @@ public class GradientDescent {
         Log.info("Usage:");
         Log.info("\tjava GradientDescent <data set> <rnn node type> <network type> <initialization type> <gradient descent type> <batch size> <loss function> <epochs> <bias> <learning rate> <mu> <low threshold> <high threshold> <layer_size_1 ... layer_size_n>");
         Log.info("\t\tdata set can be: 'penn_small', 'penn_full' or 'flights_small', 'flights_full'");
-        Log.info("\t\trnn node type can be: 'linear', 'sigmoid', 'tanh', 'lstm', 'gru', 'ugrnn', 'mgu' or 'delta'");
+        Log.info("\t\trnn node type can be: 'linear', 'sigmoid', 'tanh', 'LSTM', 'GRU', 'UGRNN', 'MGU' or 'DELTA'");
         Log.info("\t\tnetwork type can be: 'feed_forward', 'jordan' or 'elman'");
         Log.info("\t\tinitialization type can be: 'xavier' or 'kaiming'");
         Log.info("\t\tgradient descent type can be: 'stochastic', 'minibatch' or 'batch'");
