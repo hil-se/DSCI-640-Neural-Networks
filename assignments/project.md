@@ -8,7 +8,7 @@ Your framework assignment is to implement a CNN and train it using CIFAR10 data 
 
 For first steps and to get an introduction on how to easily import the CIFAR10 data, please visit this tutorial:
 
-Deep Learning in PyTorch with CIFAR-10 dataset
+[Deep Learning in PyTorch with CIFAR-10 dataset](https://medium.com/@sergioalves94/deep-learning-in-pytorch-with-cifar-10-dataset-858b504a6b54)
 
 After going through the tutorial and being able to train on the CIFAR-10 data using their simple linear model, you will need to update the model to be the following, noting that your input tensor is going to be 3x32x32 (three channels of 32x32 pixels):
 
