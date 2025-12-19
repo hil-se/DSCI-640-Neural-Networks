@@ -47,10 +47,10 @@
 | W13M | [Advanced CNN Architectures](https://docs.google.com/presentation/d/129LlWRbbVTpm8kgumZSV5KFYPoD9etxi/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                                       |     |
 | W13W | Lab                              |           |              |          |
 | W13F | Lab                              |           |              |          |   
-| W14M | [Data Augmentation](https://docs.google.com/presentation/d/1Hm4Q40s8koCeXUSsLMCpebEtZRVKQDyJ/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                                       |     |
-| W14W | [Attention and Transformers](https://docs.google.com/presentation/d/1nKIprK6jYiK9LoQMQUXYzFEq3LflX1ym/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                              |           |              |          |
+| W14M | [Neural Network Frameworks: PyTorch](https://docs.google.com/presentation/d/1RaMdrGISxyDZ7P-F3tCTSDd3avseNs5q/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                           [project](project.md)            |  W15S   |
+| W14W | Lab                              |           |              |          |
 | W14F | Lab                              |           |              |          | 
-| W15M | [Neural Network Frameworks: PyTorch](https://docs.google.com/presentation/d/1RaMdrGISxyDZ7P-F3tCTSDd3avseNs5q/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                         [project](project.md)              |   W15S  |
-| W15W | Lab                              |           |              |          |
+| W15M | [Data Augmentation](https://docs.google.com/presentation/d/1Hm4Q40s8koCeXUSsLMCpebEtZRVKQDyJ/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                                       |     |
+| W15W | [Attention and Transformers](https://docs.google.com/presentation/d/1nKIprK6jYiK9LoQMQUXYzFEq3LflX1ym/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                              |           |              |          |
 | W15F | Lab                              |           |              |          | 
 | W16M | Project review                                               |           |   |          |
