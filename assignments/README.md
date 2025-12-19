@@ -8,25 +8,25 @@
 
 | Date  | Lecture                                                                                                                                                               | Recording | Assignment                                                                                                                                                               | Due Date |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| W1M | [Introduction and Syllabus](https://docs.google.com/presentation/d/1dmw__r18lqC0m9f3g4BmrRNNL_lBQeoQ1zFRtCfj3HY/edit?usp=sharing)                                   |           | [Assignment0](assignment0.md) | W1L2    |
-| W1W | [Feed Forward Neural Networks](https://drive.google.com/file/d/1pzPTJxibN8hJWvPLbnHkXT9phF8YzhiH/view?usp=sharing)                                      |           |                                                                                                                     [PA11](PA11.md)                                                     |       W2Sun   |
+| W1M | [Introduction and Syllabus](https://docs.google.com/presentation/d/1Tn8NulHrjNd0b7HPhHwXY1QASrgZr9xI/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                                   |           | [Assignment0](assignment0.md) | W1L2    |
+| W1W | [Feed Forward Neural Networks](https://docs.google.com/presentation/d/1Tn8NulHrjNd0b7HPhHwXY1QASrgZr9xI/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                                      |           |                                                                                                                     [PA11](PA11.md)                                                     |       W2Sun   |
 | W1F | Lab                         |           |                                                                                   |     |
 | W2M | No Class |           |                                                                                                                                                                          |          |
-| W2W | [Training Neural Networks and the Backward Pass](https://drive.google.com/file/d/1MCucyyisw0-CDLR4OWu_DoagONoGrLpG/view?usp=sharing)                             |           | [PA12](PA12.md)                                                                                       | W3Sun    |
+| W2W | [Training Neural Networks and the Backward Pass](https://docs.google.com/presentation/d/1Z6o7XkowAx_27Oo0Iy9_3fo_R6HxHioC/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                             |           | [PA12](PA12.md)                                                                                       | W3Sun    |
 | W2F | Lab                 |           |                                                                                                                                                                          |          |
-| W3M | [Loss Functions and Gradient Descent](https://drive.google.com/file/d/1-xGH5So40np7AaZnae2HtPJ5RfkM9rD1/view?usp=sharing)                             |           | [PA13](PA13.md)                                                                                      | W4Sun    |
+| W3M | [Loss Functions and Gradient Descent](https://drive.google.com/file/d/1mHx4_EufttF5VNaNz0nVmySQOLqSZHj_/view?usp=sharing)                             |           | [PA13](PA13.md)                                                                                      | W4Sun    |
 | W3W | Lab                  |           |                                                                                                                                                                          |          |
 | W3F | Lab                        |           |                                                                                    |     |
-| W4M | [Data Preparation and Training Tricks](https://drive.google.com/file/d/1mdxDvS3iiXIwr6EdDCllyaHpCOQu2LuH/view?usp=sharing)              |           |            [PA14](PA14.md)            |    W5Sun      |
+| W4M | [Data Preparation and Training Tricks](https://docs.google.com/presentation/d/1QfAe5IKUJ9iW7JZICVF0o7VdXedZOFna/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)              |           |            [PA14](PA14.md)            |    W5Sun      |
 | W4W | Lab                          |           |        |  |
 | W4F | Lab                          |           |               |          |
-| W5M | [Recurrent Neural Networks and the RNN Forward Pass](https://drive.google.com/file/d/1FqjCtr-zvaXxTHxot_FQ-zasHtLTPYV3/view?usp=sharing)                       |           | [PA21](PA21.md)                                                                                      | W6Sun    |
+| W5M | [Recurrent Neural Networks and the RNN Forward Pass](https://docs.google.com/presentation/d/1NMRXVAM6afuv5l12kmZZEujbI2iYlrus/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                       |           | [PA21](PA21.md)                                                                                      | W6Sun    |
 | W5W | Lab                              |           |              |          |
 | W5F | Lab                              |           |              |          |
-| W6M | [RNN Backward Pass, Weight Initialization and Numerical Issues](https://drive.google.com/file/d/1YMiNpNzmxyGqm5O0Ryh5tYBOwT3wQuPK/view?usp=sharing)                     |           | [PA22](PA22.md)                                                                                       | W7Sun    |
+| W6M | [RNN Backward Pass, Weight Initialization and Numerical Issues](https://docs.google.com/presentation/d/11nv8pBu-EnH3YqlJkxJbDrxxA1kBhZzJ/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           | [PA22](PA22.md)                                                                                       | W7Sun    |
 | W6W | Lab                              |           |              |          |
 | W6F | Lab                              |           |              |          |
-| W7M | [Memory Cells](https://drive.google.com/file/d/1a6sF6K5hwaX4lOQFY0_hxQ0OJjtOW-4C/view?usp=sharing)                     |           | [PA23](PA23.md)                                                                                       | W8Sun    |
+| W7M | [Memory Cells](https://docs.google.com/presentation/d/1VQgFCZjwp397fyVmQN-1Aj0G-KE7qSll/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           | [PA23](PA23.md)                                                                                       | W8Sun    |
 | W7W | Lab                              |           |              |          |
 | W7F | Lab                              |           |              |          |
 | W8M | Lab                    |           | [PA24](PA24.md)                                                                                       | W10Sun    |
@@ -35,22 +35,22 @@
 | W9M | Spring Break                    |           |        |    |
 | W9W | Spring Break                              |           |              |          |
 | W9F | Spring Break                              |           |              |          |
-| W10M | [Convolutional Neural Networks Forward Pass and CNN Design](https://drive.google.com/file/d/1lBUZ3xTXjMIKOn1ypJV3P9mZ1bD6B4n6/view?usp=sharing)                     |           | [PA31](PA31.md)                                                                                       | W11Sun    |
+| W10M | [Convolutional Neural Networks Forward Pass and CNN Design](https://docs.google.com/presentation/d/1qmr9oUNFHeUqAvlvp8v-p8bcLSakKQVg/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           | [PA31](PA31.md)                                                                                       | W11Sun    |
 | W10W | Lab                              |           |              |          |
 | W10F | Lab                              |           |              |          |
-| W11M | [CNN Backward Pass](https://drive.google.com/file/d/1sk0jAeQEwFOyfdsHGPAtYgb_QY3bofIR/view?usp=sharing)                     |           | [PA32](PA32.md)                                                                                       | W12Sun    |
+| W11M | [CNN Backward Pass](https://docs.google.com/presentation/d/1fYeafwnm-3M7M6_YRfZvJpnIsJOLtrmR/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           | [PA32](PA32.md)                                                                                       | W12Sun    |
 | W11W | Lab                              |           |              |          |
 | W11F | Lab                              |           |              |          |                                  
-| W12M | [CNN Regularization Methods](https://drive.google.com/file/d/1zltVkdlm_WD98c8A7R5q1htK-Zm4gUxS/view?usp=sharing)   |           | [PA33](PA33.md)    | W13Sun    |
+| W12M | [CNN Regularization Methods](https://docs.google.com/presentation/d/1Znu4gbqHsx-HLKLT8iHQWcuMRWDmPe6u/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)   |           | [PA33](PA33.md)    | W13Sun    |
 | W12W | Lab                              |           |              |          |
 | W12F | Lab                              |           |              |          |       
-| W13M | [Advanced CNN Architectures](https://drive.google.com/file/d/1aD1LLQ_uEpXPUT-7cBUYMUZFn610IFQc/view?usp=sharing)                     |           |                                                                                       |     |
+| W13M | [Advanced CNN Architectures](https://docs.google.com/presentation/d/129LlWRbbVTpm8kgumZSV5KFYPoD9etxi/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                                       |     |
 | W13W | Lab                              |           |              |          |
 | W13F | Lab                              |           |              |          |   
-| W14M | [Attention and Transformers](https://drive.google.com/file/d/1wCs7s8IrHu_tyCtzgG57gIWiNj2zUNas/view?usp=sharing)                     |           |                                                                                       |     |
-| W14W | Lab                              |           |              |          |
+| W14M | [Data Augmentation](https://docs.google.com/presentation/d/1Hm4Q40s8koCeXUSsLMCpebEtZRVKQDyJ/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                                       |     |
+| W14W | [Attention and Transformers](https://docs.google.com/presentation/d/1nKIprK6jYiK9LoQMQUXYzFEq3LflX1ym/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                              |           |              |          |
 | W14F | Lab                              |           |              |          | 
-| W15M | [Neural Network Frameworks: PyTorch](https://drive.google.com/file/d/1XFnY8_GSRwTJnx_r_YNhuI8xp5rWVC7U/view?usp=sharing)                     |           |                                                                         [project](project.md)              |   W15S  |
+| W15M | [Neural Network Frameworks: PyTorch](https://docs.google.com/presentation/d/1RaMdrGISxyDZ7P-F3tCTSDd3avseNs5q/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           |                                                                         [project](project.md)              |   W15S  |
 | W15W | Lab                              |           |              |          |
 | W15F | Lab                              |           |              |          | 
 | W16M | Project review                                               |           |   |          |
