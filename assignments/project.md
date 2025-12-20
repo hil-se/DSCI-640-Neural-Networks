@@ -123,7 +123,7 @@ The following will help with adding in particular layers:
 [https://www.tensorflow.org/api_docs/python/tf/keras/layers](https://www.tensorflow.org/api_docs/python/tf/keras/layers)
 
 Train this model with optimizer='adam', loss='sparse_categorical_crossentropy', batch_size=128 for 50 epochs. 
- - Save a screenshot of the output as _project/screenshot.png_.
+ - Save your output log file as _project_P1.txt_.
  - Save the model weights to _project/checkpoint/weights.keras_. Rename it as _weights_P1.keras_ to keep it for examination.
  - Make sure you can test the saved model using the [project/test.py](project/test.py) file.
  - Also make sure the training and validation accuracies are recorded in _project/training.png_. Rename it as _training_P1.png_ to keep it for examination.
@@ -135,7 +135,7 @@ You can try whatever you want to train a better model (changing the hyperparamet
 ### Grading Rubric 20 points in total
 
 - 10 points if
-  + _project/screenshot.png_ looks right.
+  + The log file _project_P1.txt_ looks right.
   + _training_P1.png_ looks right.
   + accuracy with _weights_P1.keras_ looks right.
 - 5 points if
