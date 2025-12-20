@@ -6,11 +6,13 @@
 
 Your framework assignment is to implement a CNN and train it using CIFAR10 data in [TensorFlow](https://www.tensorflow.org/install/pip).
 
+### Project Part 1
+
 For first steps and to get an introduction on how to easily import the CIFAR10 data, please visit this tutorial:
 
 [CIFAR-10 Image Classification in TensorFlow](https://www.geeksforgeeks.org/deep-learning/cifar-10-image-classification-in-tensorflow/)
 
-After going through the tutorial and being able to train on the CIFAR-10 data using their simple linear model, you will need to update the model to be the following, noting that your input tensor is going to be 3x32x32 (three channels of 32x32 pixels):
+After going through the tutorial and being able to train on the CIFAR-10 data using their simple linear model, you will need to utilize what you learned to complete the CNN_model class in [](). Note that your input would be 3x32x32 (three channels of 32x32 pixels):
 
 part 1 (note each of these feature maps will be 32x32 until the max pool):
 
@@ -120,7 +122,11 @@ The following will help with adding in particular layers:
 
 [https://www.tensorflow.org/api_docs/python/tf/keras/layers](https://www.tensorflow.org/api_docs/python/tf/keras/layers)
 
-Train this model and test the model.  You can try tweaking the number of epochs and learning rate(s), or swapping out SGD for other optimizers to see how high you can get the accuracy.
+Train this model with optimizer='adam', loss='sparse_categorical_crossentropy', batch_size=128 for 50 epochs. 
+
+### Project Part 2
+
+You can try tweaking the number of epochs and learning rate(s), or swapping out adam for other optimizers to see how high you can get the accuracy.
 
 
 Put this code and your output file(s) in a ./framework/ directory in your gitlab repository, and push these to your repo by the deadline.
