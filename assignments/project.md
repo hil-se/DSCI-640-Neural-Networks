@@ -53,6 +53,68 @@ part 4 (dense layers, after the flatten these will be 1xY where Y is the number 
 - Linear with 10 outputs (this is your final output layer)
 - Softmax
 
+The model should look like this:
+```
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_1 (InputLayer)        [(None, 32, 32, 3)]       0
+
+ conv2d (Conv2D)             (None, 32, 32, 9)         252
+
+ batch_normalization (Batch  (None, 32, 32, 9)         36
+ Normalization)
+
+ conv2d_1 (Conv2D)           (None, 32, 32, 9)         738
+
+ batch_normalization_1 (Bat  (None, 32, 32, 9)         36
+ chNormalization)
+
+ max_pooling2d (MaxPooling2  (None, 16, 16, 9)         0
+ D)
+
+ conv2d_2 (Conv2D)           (None, 16, 16, 18)        1476
+
+ batch_normalization_2 (Bat  (None, 16, 16, 18)        72
+ chNormalization)
+
+ conv2d_3 (Conv2D)           (None, 16, 16, 18)        2934
+
+ batch_normalization_3 (Bat  (None, 16, 16, 18)        72
+ chNormalization)
+
+ max_pooling2d_1 (MaxPoolin  (None, 8, 8, 18)          0
+ g2D)
+
+ conv2d_4 (Conv2D)           (None, 8, 8, 36)          5868
+
+ batch_normalization_4 (Bat  (None, 8, 8, 36)          144
+ chNormalization)
+
+ conv2d_5 (Conv2D)           (None, 8, 8, 36)          11700
+
+ batch_normalization_5 (Bat  (None, 8, 8, 36)          144
+ chNormalization)
+
+ max_pooling2d_2 (MaxPoolin  (None, 4, 4, 36)          0
+ g2D)
+
+ flatten (Flatten)           (None, 576)               0
+
+ dense (Dense)               (None, 100)               57700
+
+ dropout (Dropout)           (None, 100)               0
+
+ dense_1 (Dense)             (None, 10)                1010
+
+=================================================================
+Total params: 82182 (321.02 KB)
+Trainable params: 81930 (320.04 KB)
+Non-trainable params: 252 (1008.00 Byte)
+_________________________________________________________________
+
+```
 
 The following will help with adding in particular layers:
 
