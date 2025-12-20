@@ -50,7 +50,7 @@ The student will understand how to calculate gradients through standard convolut
 The student will be able to utilize a modern neural network framework (e.g., TensorFlow, PyTorch) to design and train neural networks.
 
 ## Textbook, Required Material and Other Resources
-### Recommended Text:
+### Recommended Text Book:
 Deep Learning by Ian Goodfellow, Yoshua Bengio and Aaron Courville (ISBN: 9780262035613)
 
 ### Software and Hardware
