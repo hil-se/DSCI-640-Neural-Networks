@@ -123,7 +123,7 @@ The following will help with adding in particular layers:
 [https://www.tensorflow.org/api_docs/python/tf/keras/layers](https://www.tensorflow.org/api_docs/python/tf/keras/layers)
 
 Train this model with optimizer='adam', loss='sparse_categorical_crossentropy', batch_size=128 for 50 epochs. 
- - Save your output log file as _project_P1.txt_.
+ - Save a screenshot of this output as [P1.png].
  - Save the model weights to _project/checkpoint/weights.keras_. Rename it as _weights_P1.keras_ to keep it for examination.
  - Make sure you can test the saved model using the [project/test.py](project/test.py) file.
  - Also make sure the training and validation accuracies are recorded in _project/training.png_. Rename it as _training_P1.png_ to keep it for examination.
@@ -132,14 +132,17 @@ Train this model with optimizer='adam', loss='sparse_categorical_crossentropy', 
 
 You can try whatever you want to train a better model (changing the hyperparameters, changing the model architectural, etc.). The goal is to get as high accuracy on the test set as possible. You can use generative AI to assist you in this process but eventually, you will need to make sure you train the model with [project/tf_cifar10.py](project/tf_cifar10.py) without data leakage (cannot use any information from the test set to train/tune the model) and that [project/test.py](project/test.py) can be used to evaluate the accuracy on the test set of your saved model.
 
+Save a screenshot of your highest accuracy result as [P2.png]().
+
 ### Grading Rubric 20 points in total
 
 - 10 points if
-  + The log file _project_P1.txt_ looks right.
+  + The [P1.png]() looks right.
   + _training_P1.png_ looks right.
   + accuracy with _weights_P1.keras_ looks right.
 - 5 points if
   + A higher accuracy than the Part 1 model is achieved by the Part 2 model by testing with [project/test.py](project/test.py).
   + Part 2 model runs without error.
+  + [P2.png]() looks right.
 - 5 points for
   + How high your test accuracy is when compared to the other students in class.
