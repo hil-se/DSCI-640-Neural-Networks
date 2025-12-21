@@ -23,7 +23,7 @@ public class PA13GradientDescent {
         Log.info("\t\tdata set can be: 'and', 'or' or 'xor'");
         Log.info("\t\tnetwork type can be: 'tiny', 'small' or 'large'");
         Log.info("\t\tgradient descent type can be: 'stochastic', 'minibatch' or 'batch'");
-        Log.info("\t\tloss function can be: 'l1_norm', or 'l2 norm'");
+        Log.info("\t\tloss function can be: 'l1_norm', or 'l2_norm'");
         Log.info("\t\tepochs is an integer > 0");
         Log.info("\t\tbias is a double");
         Log.info("\t\tlearning rate is a double usually small and > 0");
