@@ -75,11 +75,12 @@ Working on a group term project.
 
 Attendence is required for the on campus. All requests for excused absences are accepted only by email to your instructor before the beginning of class. Deductions to your final grade will be applied as follows:
 
-Number of Missed Classes	Reduction to Final Grade
-1	5%
-2	15%
-3	30%
-4+	Four or more missed classes will result in a failing grade.
+|Number of Missed Classes	| Reduction to Final Grade|
+|----|-------------------------------------------------------------|
+| 1  | 5%                                                          |
+| 2  | 15%                                                         |
+| 3  | 30%                                                         |
+| 4+ | Four or more missed classes will result in a failing grade. |
 
 ## Grading
 
@@ -90,9 +91,9 @@ The course grade will consist of three programming assignments (each with three 
 The grade will be calculated as follows:
 
 Assignment	Percentage of Final Grade
-Programming Assignment 1: Feed Forward Neural Networks	25%
-Programming Assignment 2: Recurrent Neural Networks	25%
-Programming Assignment 3: Convolutional Neural Networks	30%
+Programming Assignment 1: Feed Forward Neural Networks	28%
+Programming Assignment 2: Recurrent Neural Networks	28%
+Programming Assignment 3: Convolutional Neural Networks	24%
 Framework Project	20%
 
 ### Grades are awarded as follows:
