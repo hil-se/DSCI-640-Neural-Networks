@@ -90,9 +90,9 @@ The course grade will consist of three programming assignments (each with three 
 The grade will be calculated as follows:
 
 Assignment	Percentage of Final Grade
-Programming Assignment 1: Feed Forward Neural Networks	25%
-Programming Assignment 2: Recurrent Neural Networks	25%
-Programming Assignment 3: Convolutional Neural Networks	30%
+Programming Assignment 1: Feed Forward Neural Networks	28%
+Programming Assignment 2: Recurrent Neural Networks	28%
+Programming Assignment 3: Convolutional Neural Networks	24%
 Framework Project	20%
 
 ### Grades are awarded as follows:
