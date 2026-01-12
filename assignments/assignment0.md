@@ -63,7 +63,7 @@
  ```
  DSCI-640> git pull
  ```
- - (3) Work on your local machine (add/remove/edit files under DSCI-633/).
+ - (3) Work on your local machine (add/remove/edit files under DSCI-640/).
  - (4) Commit to the remote server of Github (upload local changes).
  ```
  DSCI-640> git add .
