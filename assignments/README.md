@@ -53,4 +53,4 @@
 | W15M |       Lab              |           |                                                                                       |     |
 | W15W | [Attention and Transformers](https://docs.google.com/presentation/d/1nKIprK6jYiK9LoQMQUXYzFEq3LflX1ym/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                              |           |              |          |
 | W15F | Lab                              |           |              |          | 
-| W16M | Project review                                               |           |   |          |
+| W16M | [Project Presentation](https://docs.google.com/spreadsheets/d/17XxiRqrSp0bvztRgT61FM9p2riNgRTXacuDON0dml0U/edit?gid=0#gid=0)                                               |           |   |          |
