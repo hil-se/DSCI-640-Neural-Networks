@@ -134,6 +134,15 @@ You can try whatever you want to train a better model (changing the hyperparamet
 
 Save a screenshot of your highest accuracy result as [P2.png]().
 
+### Presentation
+
+Present with at most 5 slides to talk about your unique solution to this problem. It is recommended to cover the following three aspects:
+ - Preprocessing (data augmentation, sampling, manipulation, etc.)
+ - Model architecture and hyperparameters (activation function, loss function, optimizer, batch size, learning rate, etc.)
+ - Hyperparameter tuning to find the best model
+Remember to show the most **unique** parts of your solution. Bonus credits will be given to the most creative solutions.
+Please remember to make your slides visible to RIT users and share its url in the [Google sheet](https://docs.google.com/spreadsheets/d/17XxiRqrSp0bvztRgT61FM9p2riNgRTXacuDON0dml0U/edit?gid=0#gid=0).
+
 ### Grading Rubric 20 points in total
 
 - 10 points if
@@ -146,3 +155,5 @@ Save a screenshot of your highest accuracy result as [P2.png]().
   + [P2.png]() looks right.
 - 5 points for
   + How high your test accuracy is when compared to the other students in class.
+- 1-3 Bonus points for
+  + Unique and creative solutions demonstrated in the presentation.
