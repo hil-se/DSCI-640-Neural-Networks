@@ -406,13 +406,13 @@ public class NeuralNetwork {
     public void backwardPass() throws NeuralNetworkException {
         //TODO: You need to implement this for Programming Assignment 1 - Part 2
 
-        throw new NeuralNetworkException("backwardPass(Instance instance) was not yet implemented!");
+        throw new NeuralNetworkException("backwardPass() was not yet implemented!");
     }
 
     /**
      * This gets the gradient of the neural network at its current
      * weights and the given instance using backpropagation (e.g., 
-     * the NeuralNetwork.backwardPass(Instance))* Method.
+     * the NeuralNetwork.backwardPass())* Method.
      *
      * Helpful tip: use getDeltas after doing the propagateBackwards through
      * the networks to get the gradients/deltas in the same order as the
