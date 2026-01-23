@@ -108,16 +108,22 @@ public class PA12Tests {
                 weights[i] = (-1 * (i%2)) * 0.05 * i;
             }
 
+            tinyNN.setWeights(weights);
+
+            
+
+            
+            
+            double[] calculatedGradient = new double[]{0.0, 0.0, 0.0, 0.0, -0.06250000073038109, 0.0, -0.0875000000233328, 0.0};
+            double[] numericGradient = tinyNN.getNumericGradient(instance00);
+
             for (int i=0; i<weights.length; i++){
                 if (Math.abs(weights[i]-tinyNN.getWeights()[i]) > 5e-8){
                     throw new NeuralNetworkException("Weights changed after getNumberWeights!");
                 }
             }
 
-            tinyNN.setWeights(weights);
             
-            double[] calculatedGradient = new double[]{0.0, 0.0, 0.0, 0.0, -0.06250000073038109, 0.0, -0.0875000000233328, 0.0};
-            double[] numericGradient = tinyNN.getNumericGradient(instance00);
             if (!BasicTests.gradientsCloseEnough(calculatedGradient, numericGradient)) {
                 throw new NeuralNetworkException("Gradients not close enough on testTinyGradientNumeric, instance 00!");
             }
