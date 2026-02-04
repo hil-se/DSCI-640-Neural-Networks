@@ -128,9 +128,9 @@ public class PA14GradientDescent {
             //java will initialize each element in the array to 0
             double[] velocity = new double[nn.getNumberWeights()];
 
-            //TODO: BONUS PA1-4: (1 point) implement the RMSprop 
+            //TODO: PA1-4: (0.5 point) implement the RMSprop 
             //per-parameter adaptive learning rate method.
-            //TODO: BONUS PA1-4: (1 point) implement the Adam
+            //TODO: PA1-4: (0.5 point) implement the Adam
             //per-parameter adaptive learning rate method.
             //For these you will need to add a command line flag
             //to select if which method you'll use (nesterov, rmsprop or adam)
