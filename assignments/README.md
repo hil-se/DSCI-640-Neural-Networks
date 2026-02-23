@@ -29,7 +29,7 @@
 | W7M | [Memory Cells](https://docs.google.com/presentation/d/1VQgFCZjwp397fyVmQN-1Aj0G-KE7qSll/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                     |           | [PA23](PA23.md)                                                                                       | W8Sun    |
 | W7W | Lab                              |           |              |          |
 | W7F | Lab                              |           |              |          |
-| W8M | Lab                    |           | [PA24](PA24.md)                                                                                       | W10Sun    |
+| W8M | [Attention and Transformers](https://docs.google.com/presentation/d/1nKIprK6jYiK9LoQMQUXYzFEq3LflX1ym/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                    |           | [PA24](PA24.md)                                                                                       | W10Sun    |
 | W8W | Lab                              |           |              |          |
 | W8F | Lab                              |           |              |          |
 | W9M | Spring Break                    |           |        |    |
@@ -49,8 +49,8 @@
 | W13F | Lab                              |           |              |          |   
 | W14M | [Neural Network Frameworks: TensorFlow](https://www.tensorflow.org/tutorials)                     |           |                                                                           [project](project.md)            |  W15Sun   |
 | W14W | Lab                              |           |              |          |
-| W14F | [Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation), [Applying data augmentation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb)                               |           |              |          | 
-| W15M |       Lab              |           |                                                                                       |     |
-| W15W | [Attention and Transformers](https://docs.google.com/presentation/d/1nKIprK6jYiK9LoQMQUXYzFEq3LflX1ym/edit?usp=sharing&ouid=116378854559746767728&rtpof=true&sd=true)                              |           |              |          |
+| W14F | Lab                               |           |              |          | 
+| W15M |    [Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation), [Applying data augmentation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb)              |           |                                                                                       |     |
+| W15W | Lab                              |           |              |          |
 | W15F | Lab                              |           |              |          | 
 | W16M | [Project Presentation](https://docs.google.com/spreadsheets/d/17XxiRqrSp0bvztRgT61FM9p2riNgRTXacuDON0dml0U/edit?gid=0#gid=0)                                               |           |   |          |
