@@ -114,7 +114,7 @@ public class ConvolutionalNode {
     public double[][][][] xHat;
 
     //these are used by batch normalization to calculate the values
-    //before multiplying by gamma and adding delta
+    //after multiplying by gamma and adding delta
     public double[][][][] afterBatchNorm;
 
     //this is used for calculating square root of sigma squared
