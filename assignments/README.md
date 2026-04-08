@@ -50,7 +50,7 @@
 | W14M | [Neural Network Frameworks: TensorFlow](https://www.tensorflow.org/tutorials)                     |           |                                                                           [project](project.md)            |  W15Sun   |
 | W14W | Lab                              |           |              |          |
 | W14F | Lab                               |           |              |          | 
-| W15M |    [Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation), [Applying data augmentation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb)              |     [Example Presentation Slides](https://docs.google.com/presentation/d/1iPYdRoK1uZLMw9fY17MrR4bZuUpC2FthPuh26UIdhfU/edit?usp=sharing)      |                                                                                       |     |
+| W15M |    [Data Augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation), [Applying data augmentation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb)              |           |   [Example Presentation Slides](https://docs.google.com/presentation/d/1iPYdRoK1uZLMw9fY17MrR4bZuUpC2FthPuh26UIdhfU/edit?usp=sharing)                                                                                    |     |
 | W15W | Lab                              |           |              |          |
 | W15F | Lab                              |           |              |          | 
 | W16M | [Project Presentation](https://docs.google.com/spreadsheets/d/17XxiRqrSp0bvztRgT61FM9p2riNgRTXacuDON0dml0U/edit?gid=0#gid=0)                                               |           |   |          |
