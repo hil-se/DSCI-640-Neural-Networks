@@ -132,6 +132,8 @@ Train this model with optimizer='adam', loss='sparse_categorical_crossentropy', 
 
 You can try whatever you want to train a better model (changing the hyperparameters, changing the model architectural, etc.). The goal is to get as high accuracy on the test set as possible. You can use generative AI to assist you in this process but eventually, you will need to make sure you train the model with [project/tf_cifar10.py](project/tf_cifar10.py) without data leakage (cannot use any information from the test set to train/tune the model) and that [project/test.py](project/test.py) can be used to evaluate the accuracy on the test set of your saved model.
 
+**No pretrained model is allowed**.
+
 Save a screenshot of your highest accuracy result as [P2.png]().
 
 ### Presentation
