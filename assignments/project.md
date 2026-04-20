@@ -138,7 +138,7 @@ Save a screenshot of your highest accuracy result as [P2.png]().
 
 ### Presentation
 
-Present with at most 5 slides to talk about your unique solution to this problem. It is recommended to cover the following three aspects:
+Present with at most 5 slides to talk about your unique solution to this problem. The time limit for each presentation is 5 mins. It is recommended to cover the following three aspects:
  - Preprocessing (data augmentation, sampling, manipulation, etc.)
  - Model architecture and hyperparameters (activation function, loss function, optimizer, batch size, learning rate, etc.)
  - Hyperparameter tuning to find the best model
